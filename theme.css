@@ -54,7 +54,7 @@ body#post article h2#title {
 }
 
 footer {
-    background-image: url(http://u.cubeupload.com/somethingpretty/meong.png);
+    background-image: url(INSERT_URL_HERE);
     background-repeat: no-repeat;
     background-size: 52px 52px;
     background-position: center;
@@ -81,7 +81,7 @@ footer nav p:after {
 }
 
 body#collection #blog-title a {
-    background-image: url(https://pixelfed.de/storage/avatars/000/000/000/000/000/134/0/3c8K1nFuwxyG73NwgUhJ_avatar.jpeg?v=20);
+    background-image: url(INSERT_URL_HERE);
     background-position: center top;
     background-repeat: no-repeat;
     display: inline-block;
