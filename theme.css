@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile:wght@500&display=swap');
+
+/* Center images */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hide post views */
+header nav .views {
+    display: none;
+}
+
+body {
+    /*background-color: #e8eaea;*/
+    background-color: #fff;
+}
+
+.post-title a.u-url:link, .post-title a.u-url:visited{
+    color: #625970;
+    font-family: Nobile;
+}
+
+.post-title a:hover {
+    color: #ea4784;
+    border-bottom: 3px solid #ea4784;
+    text-decoration: none;
+}
+
+body#post article h2#title {
+    color: #625970;
+    padding: 1em 0;
+    max-width: 100%;
+    font-size: 2.8em;
+    font-family: Nobile;
+}
+
+#blog-title a {
+    color: #534c5f;
+    font-size:0.9em;
+    font-weight: bold;
+    font-family: Nobile;
+}
+
+.pinned {
+    color: #444346;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.pinned:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #ea4784;
+}
+
+footer {
+    background-image: url(http://u.cubeupload.com/somethingpretty/meong.png);
+    background-repeat: no-repeat;
+    background-size: 52px 52px;
+    background-position: center;
+}
+
+.hashtag {
+    color: #aaa;
+}
+
+.hashtag:hover {
+    color: #333;
+}
+
+.description {
+    font-style: italic;
+}
+
+footer nav p:after {
+    content: '.';
+}
+
+#post .dt-published {
+    text-transform: uppercase;
+}
+
+body#collection #blog-title a {
+    background-image: url(https://pixelfed.de/storage/avatars/000/000/000/000/000/134/0/3c8K1nFuwxyG73NwgUhJ_avatar.jpeg?v=20);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    background-size: 130px 130px;
+    padding-top: 150px;
+}
